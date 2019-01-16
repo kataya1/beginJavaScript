@@ -1,0 +1,44 @@
+body{
+
+    background: #000;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+#container {
+
+	background-color:#262626;
+	/*when no width it adapts to screen size*/
+	//width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#header {
+	background: linear-gradient(to bottom,#1d1d1d 0,#121212 100%);
+
+	color: white;
+	text-align: center;
+	}
+
+#footer{
+	clear :both;
+	color: yellow;
+	text-align: right;
+	}
+#content {
+	padding: 5px
+
+	}
+#navigate{
+	float: left;
+	//padding-right: 10px;
+	
+	}
+#main{
+	float: left;
+	min-width: 100px;
+	max-width: content;
+
+
+	}
