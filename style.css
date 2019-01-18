@@ -40,7 +40,7 @@ body{
 #navigate{
 /*	float: left;
 */
-	padding: 10px;
+	padding: 0px;
 	}
 
 #main{
@@ -89,6 +89,7 @@ a:active{
 /*el5olaasa: to edit something in css you call where it is then it's component that you want to edit. see below s*/
 /*changing an un ordered list*/
 #navigate ul{
+	text-align: center;
 	list-style-type: none;
 	padding: 0px;
 }
@@ -99,5 +100,5 @@ h1 , h2 , h3{
 }
 .content {
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 15% 85%;
 }
