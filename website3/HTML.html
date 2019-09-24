@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- the tags are called elements -->
+<html lang="en-US">
+
+<head>
+    <title>HTML study</title> <!-- the taB NAME-->
+    <link rel="stylesheet" href="html.css">
+
+    <meta charset="UTF-8">
+    <!-- Define a description of your web page: -->
+    <meta name="description" content="Free Web tutorials">
+    <!-- Define keywords for search engines: -->
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <!-- Define the author of a page: -->
+    <meta name="author" content="kataya">
+    <!-- Refresh document every 30 seconds: -->
+    <meta http-equiv="refresh" content="30">
+    <!-- A <meta> viewport element gives the browser instructions 
+        on how to control the page's dimensions and scaling.
+The width=device-width part sets the width of the page to follow 
+the screen-width of the device (which will vary depending on the device).
+The initial-scale=1.0 part sets the initial zoom level when the page
+ is first loaded by the browser. -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <style>
+        a:hover,
+        :visited {
+            color: aliceblue;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            /* makes the border a single line */
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #444;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../website 1/heic1608a.jpg" style="width:100px;" alt="nebula">
+        <img src="../website 1/1566749076789.gif">
+        <hr>
+        <!--line seperator-->
+
+        <button style="background-color: black"> <a href="#ch2">inpage scrolling</a> </button>
+        <!--here the href goes to bookmark-->
+        <!-- <a href="#ch2" >inpage scrolling</a> -->
+
+        <br>
+        <!--line break-->
+        <p style="font-family: Arial, Helvetica, sans-serif">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            A, necessitatibus.</p>
+        <!--paragraph-->
+        <br>
+        <a href="https://facebook.com/" title="goes to fb.com"><button>FaceBook</button></a>
+        <!-- lists -->
+        <ul id="nav" style="list-style-type: none;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <p style=" width: 20%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat voluptatem id optio
+            aperiam nobis expedita porro, corrupti laborum illum aut eos praesentium? Cumque itaque voluptate quidem
+            soluta sint doloremque totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, suscipit
+            molestias atque nostrum iusto quis inventore laborum alias sapiente quam eligendi nam fugit ab nesciunt sit
+            tenetur molestiae, recusandae facere?</p>
+        <h1 id="ch2" style="text-align: center;">withing page link</h1><!-- id is making a bookmark here-->
+        <pre style="font-size: 200%; color:white; background-color:dodgerblue;">Lorem ipsum dolor sit amet
+                 consectetur, adipisicing elit. Quaerat voluptatem id o                          facere?</pre>
+        <!--<pre>preserve the thing you write in it-->
+        <p style="border:2px solid tomato;  width: 20%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Quaerat voluptatem id optio aperiam nobis expedita porro, corrupti laborum illum aut eos praesentium? Cumque
+            itaque voluptate quidem soluta sint doloremque totam! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Earum, suscipit molestias atque nostrum iusto quis inventore laborum alias sapiente quam eligendi nam
+            fugit ab nesciunt sit tenetur molestiae, recusandae facere?</p>
+        <hr>
+        <!-- formating text -->
+
+        <b>bold </b><strong>important text </strong><i> italic</i> <em> emphasized</em>
+        <mark>marked</mark> <small> small</small> <del> deleted</del> <ins> inserted </ins>
+        <sub> subscript </sub> <sup> superscript</sup>
+        <p> He<sup>2</sup><sub>4</sub></p>
+        <blockquote> For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.</blockquote>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <!-- links -->
+        <hr>
+        <div>
+            <h3>links</h3>
+            <ul style="background-image:url('../website 1/1567391041789.jpg'); background-size: 500px ">
+                <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein"><img src="../website 1/aergYwW_700bwp.webp"
+                            style=" width:200px;" alt="einestien with black students"></a></li>
+                <!-- i feel someone someday might say that this is racist but it totaly isnt-->
+                <li><a href="index.html" target="_blank">opens link in another tab</a></li>
+                <li><a href="index.html" target="_parent">opens link in parent</a></li>
+                <li><a href="index.html" target="_top">opens link top</a></li>
+                <li><a href="HtML.html" target="iframe_a">opens link iframe</a></li>
+            </ul>
+        </div>
+        <!-- tables -->
+        <table style="width:50%">
+            <caption>caption</caption>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+        <!-- block and inline level elements  -->
+        <!-- iframe -->
+        <iframe src="index.html" style="height:400px;width:600px;" name="iframe_a"></iframe>
+        <h1>My First JavaScript</h1>
+        <div>
+            <p>JavaScript can change the content of an HTML element:</p>
+
+            <button type="button" onclick="myFunction()">Click Me!</button>
+
+            <p id="demo">This is a demonstration.</p>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                }
+            </script>
+        </div>
+        <!-- Head  -->
+
+
+
+    </div>
+</body>
+
+</html>
+<!--skipped tags  -->
+<!-- images [<map>,<picture>!]-->
+<!-- list [<ol>,<dl><dt><dd>] -->
+<!--  blocks <span> -->
+<!-- Classes HTML elements can have more than one class name, each class name must be separated by a space.-->
+<!-- JS: document.getElementById() // <script src="file.js"// <noscript>-->
+<!-- file path It is best practice to use relative file paths (if possible). -->
