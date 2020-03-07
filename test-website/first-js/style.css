@@ -63,7 +63,6 @@ header {
 .btn:hover {
   background: #444;
 }
-
 .bg-dark {
   background: #333;
   color: #fff;
@@ -74,4 +73,13 @@ header {
   color: #fff;
   padding: 5px;
   margin: 5px;
+}
+.theme {
+  /* no idea what this means */
+  display: inline-block;
+  /* position:; */
+  /* float:inherit; */
+  /* padding: px; */
+  width: fit-content;
+  align-content: center;
 }

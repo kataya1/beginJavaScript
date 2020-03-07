@@ -60,3 +60,7 @@ class Personclass {
 const person2 = new Personclass('jack', 'carbon', '9-9-1000')
 
 console.log(person2.getBirthYear())
+
+// string is two back tick `` and string format is `${var}` 
+var x = 10;
+n = `x = ${x}`
