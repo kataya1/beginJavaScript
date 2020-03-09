@@ -46,7 +46,7 @@ const repreat = txt => console.log(txt) //it implecitly return that line
 const point = (x, y) => {
     slope = y/x
     return ` slope's if the second point is "origin" ${slope}`
-}
+}gi
 repreat('butchbitch') // invoke it
 
 
