@@ -1,6 +1,8 @@
 // events
 
+document.querySelector('section').remove()
 const h = document.querySelector('header')
+
 h.innerHTML = `${h.innerHTML}` + '<input class="btn" type="button" value="change">'
 h.children[1].classList.add('theme')
 const btn = document.querySelector('input.btn')
