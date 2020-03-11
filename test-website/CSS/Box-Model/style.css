@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+.box1 {
+    background-color: Tomato;
+}
+.box2 {
+    padding: 20px;
+    /* margin: 10px; */
+    border: 20px solid slateblue;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
