@@ -1,15 +1,29 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-}
 .box1 {
     background-color: Tomato;
+    width: 200px;
 }
 .box2 {
-    padding: 20px;
-    /* margin: 10px; */
+    padding: 10px;
     border: 20px solid slateblue;
-    overflow: hidden;
-    background-color: dodgerblue;
+}
+
+.box3, .box4 {
+    border: 30px solid aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.box3 {
+    margin: 20px;
+    background-color: coral;
+    
+    
+}
+.box4{
+    margin: 30px;
+    background-color: lightblue;
+}
+.sized{
+    box-sizing: border-box;
+    
 }

@@ -5,13 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS concepts</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../snippet-format.css">
+    <script src="../code.js" defer></script>
 </head>
 <body>
-    <div>
-        <span class="box1 box1span">One</span>
-        <span class="box2 box2span">two</span>
-        <div class="box1 box1div">One</div>
-        <div class="box2 box2div">two</div>
+    <div class="snippet">
+        <div class="info">
+            <ul>
+                <li>everything in css is a box</li>
+                <li>span level element don't get affected by width and height property and they overflow</li> 
+            </ul>
+        </div>
+        <div class="visual">
+            <span class="box1 box1span">One</span>
+            <span class="box2 box2span">two</span>
+            <div class="box1 box1div">One</div>
+            <div class="box2 box2div">two</div>
+        </div>
+        <div class="code">
+
+        <pre><code>.box1 {
+    background-color: Tomato;
+    width: 300px;
+}
+.box2 {
+    padding: 10px;
+    border: 20px solid slateblue;
+}          </code></pre>
+            
+        </div>
+    
     </div>
+
+    <div class="snippet">
+        <div class="info">
+            <p>margins overlaps:
+                even tho each of them got 20px and 30px margin so supposedly you'd assume 50 px but instead you get 30px
+            </p>
+        </div>
+        <div class="visual">
+            <div class="box3">box3</div>
+            <div class="box4">box4</div>
+        </div>
+        <div class="code">
+            HTML
+            <pre><code content="text/plain">&lt;div class="box3"&gt;box3&lt;/div&gt;
+&lt;div class="box4"&gt;box4&lt;/div&gt;
+</code></pre>
+            CSS
+            <code><pre>.box3, .box4 {
+    border: 30px solid aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.box3 {
+    margin: 20px;
+    background-color: coral;
+    
+    
+}
+.box4{
+    margin: 30px;
+    background-color: lightblue;
+}
+}</pre></code>
+        </div>
+    </div>
+
+    <div class="snippet">
+        <div class="info">
+            <p>width and heigh property affect the element(the blue part)</p>
+            <img src="element.png" alt="ellemnt padding border margin ">
+            <p>read about box-sizing</p>
+        </div>
+        <div class="visual">
+            <div class="box3 sized">box3</div>
+            <div class="box4">box4</div>
+        </div>
+        <div class="code">
+            <pre><code>.sized{
+    box-sizing: border-box;
+}</code></pre>
+        </div>
+    </div>
+    
 </body>
 </html>
