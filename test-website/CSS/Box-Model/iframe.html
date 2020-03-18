@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe try</title>
+</head>
+<body>
+
+    <iframe src="index.html" frameborder="1" name="ifrm" width="100%"></iframe>
+</body>
+<button onclick="foo()">clickclack</button>
+<p>hello</p>
+<script>
+    function foo(){
+        const ifr = document.querySelector("iframe");
+        const p = document.querySelector("p");
+        let v = ifr.contentWindow.document
+        console.log(ifr.contentWindow)
+    }
+</script>
+</html>

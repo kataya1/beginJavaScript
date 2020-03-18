@@ -16,12 +16,11 @@
 				<li>span level element don't get affected by width and height property and they overflow</li>
 			</ul>
 		</div>
-		<div class="visual">
-<span class="box1 box1span">One</span>
-<span class="box2 box2span">two</span>
-<div class="box1 box1div">One</div>
-<div class="box2 box2div">two</div>
-</div>
+		<div class="visual"><span class="box1 box1span">One</span>
+			<span class="box2 box2span">two</span>\n\r
+			<div class="box1 box1div">One</div>
+			<div class="box2 box2div">two</div>
+		</div>
 		<div class="code">
 .box1 {
 	background-color: Tomato;
@@ -39,6 +38,8 @@
 		<div class="info">
 			<p>margins overlaps:
 				even tho each of them got 20px and 30px margin so supposedly you'd assume 50 px but instead you get 30px
+			<img src="element.png" alt="ellemnt padding border margin ">	
+			<p>width and heigh property affect the element(the blue part)</p>
 			</p>
 		</div>
 		<div class="visual">
@@ -56,12 +57,11 @@
 
 	<div class="snippet">
 		<div class="info">
-			<p>width and heigh property affect the element(the blue part)</p>
-			<img src="element.png" alt="ellemnt padding border margin ">
-			<p>read about box-sizing</p>
+			<p>By default, the width and height of an element is calculated like this:<pre>width + padding + border = actual width of an element</pre>
+			but with box-sizing: border-box the width property is the actual width</p>
 		</div>
-		<div class="visual">
-<div class="box3 sized">box3</div>
+		<div class="visual" >
+<div class="box ">box3</div>
 <div class="box4">box4</div>
 		</div>
 		<div class="code">
@@ -71,5 +71,13 @@
 		</div>
 	</div>
 
+	
+	<div class="snippet">
+		<div class="info"></div>
+		<div class="visual"><iframe src="" frameborder="0"></iframe></div>
+		<div class="code"></div>
+	</div>
+
 </body>
 </html>
+<!-- emmet: div.snippet>div.info+(div.visual>iframe)+div.code -->
