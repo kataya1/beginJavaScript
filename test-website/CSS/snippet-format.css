@@ -1,3 +1,8 @@
+:root{
+    --theme-e: black;
+    --margin: 10px;
+
+}
 ul{
     padding: 5px 5px 5px 15px;
     margin: 5px;
@@ -7,13 +12,13 @@ p{
 }
 .snippet {
     display: flex;
-    margin: 10px;
+    margin: var(--margin);
     padding: 10px;
     background-color: whitesmoke;
 }
 
 .info {
-    margin: 10px;
+    margin: var(--margin);
     font-size: large;
     background-color: #ddd;
     /* flex: 1; */
@@ -21,7 +26,7 @@ p{
 
 .visual{
     /* flex: 2; */
-    margin: 10px;
+    margin: var(--margin);
     border: 1px solid black;
     background-color: white;
     min-width: 30%;
@@ -31,7 +36,7 @@ p{
 .code {
     /* background-color: black;
     color: white; */
-    margin: 10px;
+    margin: var(--margin);
     /* flex: 1; */
     /* background-color: dodgerblu; */
     white-space: pre;
@@ -42,5 +47,6 @@ p{
 @media only screen and (max-width: 780px) {
     .snippet{
         flex-direction: column;
+        --margin: 5px
     }
   }

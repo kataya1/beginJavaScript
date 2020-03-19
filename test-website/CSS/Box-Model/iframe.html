@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <iframe src="index.html" frameborder="1" name="ifrm" width="100%"></iframe>
+    <iframe src="examples/1.html" frameborder="1" name="ifrm" width="100%"></iframe>
 </body>
 <button onclick="foo()">clickclack</button>
 <p>hello</p>
@@ -15,8 +15,8 @@
     function foo(){
         const ifr = document.querySelector("iframe");
         const p = document.querySelector("p");
-        let v = ifr.contentWindow.document
-        console.log(ifr.contentWindow)
+        let v = ifr.contentWindow.document.querySelector('.show')
+        console.log(v)
     }
 </script>
 </html>

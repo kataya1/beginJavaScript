@@ -10,28 +10,9 @@
 </head>
 <body>
 	<div class="snippet">
-		<div class="info">
-			<ul>
-				<li>everything in css is a box</li>
-				<li>span level element don't get affected by width and height property and they overflow</li>
-			</ul>
-		</div>
-		<div class="visual"><span class="box1 box1span">One</span>
-			<span class="box2 box2span">two</span>\n\r
-			<div class="box1 box1div">One</div>
-			<div class="box2 box2div">two</div>
-		</div>
-		<div class="code">
-.box1 {
-	background-color: Tomato;
-	width: 300px;
-}
-.box2 {
-	padding: 10px;
-	border: 20px solid slateblue;
-}
-		</div>
-
+		<div class="info"></div>
+		<div class="visual"><iframe src="examples/1.html" frameborder="0" width="100%"></iframe></div>
+		<div class="code"></div>
 	</div>
 
 	<div class="snippet">
@@ -71,7 +52,7 @@
 		</div>
 	</div>
 
-	
+
 	<div class="snippet">
 		<div class="info"></div>
 		<div class="visual"><iframe src="" frameborder="0"></iframe></div>
@@ -80,4 +61,5 @@
 
 </body>
 </html>
-<!-- emmet: div.snippet>div.info+(div.visual>iframe)+div.code -->
+
+<!-- div.snippet>div.info+(div.visual>iframe[width="100%"])+div.code -->
