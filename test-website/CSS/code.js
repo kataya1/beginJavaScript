@@ -21,7 +21,7 @@ function plainText(x) {
     }
     return arr.join('')
 }
-
+ 
 const foo2 = (element) => {
     // this takes the content visual section and prints it in the code section
     for(doc of element){
@@ -31,9 +31,9 @@ const foo2 = (element) => {
 
         // content of the example pages in the example folder
         let example_page = doc.querySelector("iframe")
-        let example = example_page.contentWindow.document
-        let vis = example.querySelector(".show")
-        let info = example.querySelectorAll(".info")
+        let example = (example_page.contentWindow || example_page.contentDocument)
+        let vis = example.document.querySelector(".show")
+        let info = example.document.querySelectorAll(".info")
         let example_css = example.querySelector("style")
 
         snippet_info.innerText = info.innerText;
@@ -45,4 +45,6 @@ const foo2 = (element) => {
     }
 }
 
-foo2(element)
+// foo2(element)
+
+// this is the end of this project because ot the crossorigin preventions on browsers and not beeing able to read localfiles without backend
