@@ -10,9 +10,13 @@
 </head>
 <body>
 	<div class="snippet">
-		<div class="info"></div>
+		<div class="info">
+			<ul>
+				<li>everything in css is a box</li>
+				<li>span level element don't get affected by width and height property and they overflow</li>
+			</ul>
+		</div>
 		<div class="visual"><iframe src="examples/1.html" frameborder="0" width="100%"></iframe></div>
-		<div class="code"></div>
 	</div>
 
 	<div class="snippet">
@@ -24,15 +28,7 @@
 			</p>
 		</div>
 		<div class="visual">
-<div class="box3" style="background-color: red;">box3</div>
-<div class="box4">box4</div>
-		</div>
-		<div class="code">
-.box3, .box4 {
-	border: 30px solid aqua;
-	width: 50px;
-	height: 50px;
-}
+			<iframe src="./examples/2.html" frameborder="0"></iframe>
 		</div>
 	</div>
 
@@ -42,24 +38,12 @@
 			but with box-sizing: border-box the width property is the actual width</p>
 		</div>
 		<div class="visual" >
-<div class="box ">box3</div>
-<div class="box4">box4</div>
-		</div>
-		<div class="code">
-.sized{
-	box-sizing: border-box;
-}
+		<iframe src="examples/3.html" frameborder="0"></iframe>
 		</div>
 	</div>
 
-
-	<div class="snippet">
-		<div class="info"></div>
-		<div class="visual"><iframe src="" frameborder="0"></iframe></div>
-		<div class="code"></div>
-	</div>
 
 </body>
 </html>
 
-<!-- div.snippet>div.info+(div.visual>iframe[width="100%"])+div.code -->
+<!-- div.snippet>div.info+div.visual>iframe -->

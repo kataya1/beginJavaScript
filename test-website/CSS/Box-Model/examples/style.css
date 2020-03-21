@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 .box1 {
     background-color: Tomato;
     width: 200px;

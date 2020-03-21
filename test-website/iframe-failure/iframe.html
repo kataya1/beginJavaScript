@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe try</title>
+</head>
+<body>
+
+    <iframe src="./examples/1.html" frameborder="1" name="ifrm" width="100%"></iframe>
+</body>
+<button onclick="foo()">clickclack</button>
+<p>hello</p>
+<script>
+    function foo(){
+        const ifr = document.querySelector("iframe").contentWindow.document;
+        const p = document.querySelector("p");
+        
+        // i tried everything but it's insurmountable without backend
+        // open() can't open a hidden window
+        //  document.querySelector("iframe").contentWindow.document cross-origin crap
+        //  URL()   a url object and fetch content wontwork with file:///
+
+    }
+</script>
+</html>
