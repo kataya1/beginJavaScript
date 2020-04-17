@@ -1,0 +1,44 @@
+
+        :root{
+            --title: #1b1e2b;
+            --editor: #292D3E;
+            --font-title: #757CA1;
+            --font-editor: #A6ACCD;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 5px;
+        }
+        #resume{
+            background-color: var(--title);
+            color: var(--font-title);
+            margin: auto;
+            width: 21cm;
+            height: 29.7cm;
+            overflow: auto;
+        }
+        section{
+            background-color: var(--editor);
+            color: var(--font-editor);
+            width:fit-content;
+            margin: 5px;
+            padding: 1vw;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            border-radius: 1px;
+
+        }
+        /* change the margins as you want them to be. */
+        /* gotta find a way to reconcoile between page size A4 and letter */
+        @media print {
+        body{
+            padding: 0;
+        }
+        }
+        /* this removes the page size option from chrome */
+        @page {
+        size: A4;
+        }
