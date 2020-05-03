@@ -1,0 +1,59 @@
+[33m1627bdf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: commit: page printing
+[33m83237ae[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{1}: commit: color scheme
+[33mdbfe761[m HEAD@{2}: commit: m
+[33m15d1edc[m HEAD@{3}: commit: m
+[33m31d235b[m HEAD@{4}: commit: push
+[33m46de020[m HEAD@{5}: commit: m
+[33m0261713[m HEAD@{6}: commit: m
+[33m8cea927[m HEAD@{7}: commit: m
+[33mdb9df64[m HEAD@{8}: commit: m
+[33md2d2573[m HEAD@{9}: commit: fix
+[33mbf3d53b[m HEAD@{10}: commit: ok
+[33mc015084[m HEAD@{11}: commit: final commit
+[33m374b4b3[m HEAD@{12}: commit: ok
+[33m2a4fc29[m HEAD@{13}: commit: iframe update
+[33md26efa2[m HEAD@{14}: commit: update
+[33m927f5be[m HEAD@{15}: commit: m
+[33m3432acf[m HEAD@{16}: commit: dynamicly add the code to the code section of the snippet
+[33m0ebdf87[m HEAD@{17}: commit: all
+[33m19173bc[m HEAD@{18}: commit: m
+[33m0f40e91[m HEAD@{19}: commit: 'm'
+[33m7ff5dc7[m HEAD@{20}: commit: m
+[33mab02c8d[m HEAD@{21}: commit: foundation building and organizing
+[33m55dc844[m HEAD@{22}: commit: finished the crashcourse
+[33m2fc6538[m HEAD@{23}: commit: bg btn
+[33m2923655[m HEAD@{24}: commit: c
+[33m946e086[m[33m ([m[1;31morigin/tutorial[m[33m, [m[1;32mtutorial[m[33m)[m HEAD@{25}: merge tutorial: Fast-forward
+[33ma7077ae[m HEAD@{26}: checkout: moving from tutorial to master
+[33m946e086[m[33m ([m[1;31morigin/tutorial[m[33m, [m[1;32mtutorial[m[33m)[m HEAD@{27}: checkout: moving from master to tutorial
+[33ma7077ae[m HEAD@{28}: checkout: moving from tutorial to master
+[33m946e086[m[33m ([m[1;31morigin/tutorial[m[33m, [m[1;32mtutorial[m[33m)[m HEAD@{29}: commit: dom manipulation
+[33m51b8eb1[m HEAD@{30}: commit: c
+[33m47e6954[m HEAD@{31}: commit: tidy up
+[33m18054ee[m HEAD@{32}: commit: m
+[33ma7077ae[m HEAD@{33}: checkout: moving from master to tutorial
+[33ma7077ae[m HEAD@{34}: checkout: moving from tutorial to master
+[33ma7077ae[m HEAD@{35}: checkout: moving from master to tutorial
+[33ma7077ae[m HEAD@{36}: commit (merge): fixed merge conflict
+[33m4a512d9[m HEAD@{37}: commit: edit here
+[33m586cd49[m HEAD@{38}: commit: gonna merge
+[33mc73df15[m HEAD@{39}: commit: cs50 first lecture
+[33m4bd0457[m HEAD@{40}: commit: k
+[33mb7e350e[m HEAD@{41}: pull --no-rebase --progress origin: Merge made by the 'recursive' strategy.
+[33m4166bd0[m HEAD@{42}: commit: considering adding a simple image
+[33mfdfc7a0[m HEAD@{43}: commit: using css grids now
+[33m7028d70[m HEAD@{44}: commit: Update About.html
+[33m1357e98[m HEAD@{45}: commit: making a simple about
+[33m2cdcdd8[m HEAD@{46}: commit: Update index.html
+[33m4132774[m HEAD@{47}: commit: fix some odd shit
+[33mcbe4a0f[m HEAD@{48}: commit: Create try2.html
+[33m4db7417[m HEAD@{49}: pull --no-rebase --progress origin: Merge made by the 'recursive' strategy.
+[33m96438d7[m HEAD@{50}: commit: Update try2.html
+[33m4f57c4e[m HEAD@{51}: pull --no-rebase --progress origin: Fast-forward
+[33m71d5f5f[m HEAD@{52}: commit: Update try2.html
+[33ma74386c[m HEAD@{53}: commit: trying to buy a domain name now
+[33m5444f4f[m HEAD@{54}: commit: figurd out stuff and commented them
+[33m605e251[m HEAD@{55}: commit: added some more shit and now trying to undertand the modern website layout so i'm commiting now and no not suicide
+[33mbb2a9c3[m HEAD@{56}: commit: Update try2.html
+[33m8195e74[m HEAD@{57}: commit: Create try2.html
+[33m82690e8[m HEAD@{58}: commit (initial): first commit
